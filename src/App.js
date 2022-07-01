@@ -1,4 +1,5 @@
 import {
+  //npm i react-router-dom@5.3.0
   BrowserRouter as  Router,
   Switch,
   Route,
@@ -9,7 +10,7 @@ import Detail from "./routes/Detail"
 function App() {
   return <Router>
     <Switch>
-      <Route path="/movie">
+      <Route path="/movie/:id">
         <Detail/>
       </Route>
       <Route path="/">
